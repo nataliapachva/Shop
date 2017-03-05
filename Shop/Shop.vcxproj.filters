@@ -16,12 +16,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ProductClothes.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ProductClothes.h">
-      <Filter>Entity</Filter>
-    </ClInclude>
     <ClInclude Include="Data.h">
+      <Filter>DTO</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductClothes.h">
       <Filter>DTO</Filter>
     </ClInclude>
   </ItemGroup>
